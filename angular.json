@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Parking-System"
+    }
+  },
+  "defaultProject": "Parking-System",
+  "cli": {
+    "analytics": false
+  }
 }
