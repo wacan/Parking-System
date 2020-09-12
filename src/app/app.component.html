@@ -1,31 +1,28 @@
-
+ 
 <header class="header">
-  <nav class="navbar navbar-toggleable-md navbar-light pt-0 pb-0 ">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+    <a class="navbar-brand"></a>
+        <!--div para el boton del sidebar-->  
+        <div class="float-right btn_sidebar"> 
+          <a class="button-left" style="color: azure;"><span class="fa fa-fw fa-bars "></span></a> 
+        </div>
+        <!--End butoon sidebar-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand p-0 mr-5" href="#"><img src="http://via.placeholder.com/61x14"></a>
-    <!--div para el boton del sidebar-->  
-    <div class="float-left"> 
-        <a class="button-left"><span class="fa fa-fw fa-bars "></span></a> 
-      </div>
-    <!--End butoon sidebar-->
-
-      <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-      
-          <li class="nav-item dropdown  user-menu">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="http://via.placeholder.com/160x160" class="user-image" alt="User Image" >
-              <span class="hidden-xs">Nombre del Rol</span>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Nombre de usuario</a>
-              <a class="dropdown-item" href="#">Log-Out</a>
-            </div>
-          </li>
-        </ul>
-      </div>
+    <div class="collapse navbar-collapse"  id="navbarNavDropdown" style="float: inherit;">
+      <ul class="navbar-nav" >
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Nombre Rol
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Nombre usuario</a>
+            <a class="dropdown-item" href="#">Salir</a>
+          </div>
+        </li>
+      </ul>
+    </div>
   </nav>
 </header>
 <div class="main">
